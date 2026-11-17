@@ -17,3 +17,4 @@ return <div className="app"><aside className={'sidebar '+(menuOpen?'show':'')}><
 {!isConfigured&&<div className="setup-banner"><strong>Configuración pendiente:</strong> la interfaz se puede explorar, pero la base de datos todavía no está conectada. Revisa <code>README.md</code>, ejecuta el SQL y configura las variables <code>VITE_SUPABASE_*</code>.</div>}
 </div><footer>LABFIS · Proyecto de aprendizaje · No ingresar datos personales reales</footer></main></div>
 }
+
