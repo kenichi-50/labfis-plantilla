@@ -4,12 +4,12 @@ Aplicación React/Vite con estilo común y navegación a ocho módulos, un ejemp
 
 ## Qué está implementado y qué no
 
-- ✅ Portada + menú de los 8 módulos LABFIS.
-- ✅ Ejemplo docente de impresión 3D: insertar y consultar solicitudes en **PostgreSQL** una vez configurado Supabase.
-- ✅ Formulario de registro e ingreso de usuarios por correo/contraseña; la confirmación de correo depende de configuración de Supabase.
-- ✅ Políticas RLS que aíslan los registros de cada cuenta.
-- ⏳ Los 8 módulos tienen **plantillas de trabajo**, no funcionalidades finales ni tablas propias todavía.
-- ⏳ Integración multiusuario por equipos, permisos de personal LABFIS y despliegue: no incluidos.
+- Portada + menú de los 8 módulos LABFIS.
+- Ejemplo docente de impresión 3D: insertar y consultar solicitudes en **PostgreSQL** una vez configurado Supabase.
+- Formulario de registro e ingreso de usuarios por correo/contraseña; la confirmación de correo depende de configuración de Supabase.
+- Políticas RLS que aíslan los registros de cada cuenta.
+- Los 8 módulos tienen **plantillas de trabajo**, no funcionalidades finales ni tablas propias todavía.
+- Integración multiusuario por equipos, permisos de personal LABFIS y despliegue: no incluidos.
 
 ## Ruta rápida A: StackBlitz (sin instalaciones)
 
