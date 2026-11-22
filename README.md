@@ -95,3 +95,13 @@ Como estudiante quiero registrar una solicitud de impresión 3D, indicando descr
 6. Código en repositorio sin credenciales privadas.
 
 > Este proyecto es un punto de partida académico. Los módulos están vacíos intencionalmente: deben construirse, probarse e integrarse. No usar con información institucional real.
+
+## Módulo de reservas implementado
+
+La opción **Reservas** integra disponibilidad, reservas propias e historial autorizado con Supabase. Consulta la [guía del módulo](docs/RESERVAS_IMPLEMENTACION.md) para configuración, permisos y pruebas. Ejecuta las pruebas con `npm test`.
+## Acceso y autorización
+
+El login es una pantalla independiente. Después de iniciar sesión se abre el inicio y sus módulos. El registro permite solicitar Estudiante o Docente; un responsable valida el rol y autoriza Reservas. Consulta [cómo autorizar cuentas y distinguir los roles](docs/ACCESO_Y_ROLES.md).
+## Panel administrativo y catálogo
+
+El usuario **admin** puede autorizar cuentas y asignar roles desde Gestión del laboratorio. Personal y administrador registran productos con cantidades, códigos de inventario, fechas y roles permitidos. La migración 06 está instalada en el proyecto Supabase configurado. Consulta la [guía del panel](docs/PANEL_ADMINISTRACION.md). La contraseña inicial se entregó en el chat y no está almacenada en el repositorio.
