@@ -8,8 +8,8 @@ Aplicación React/Vite con estilo común y navegación a ocho módulos, un ejemp
 - ✅ Ejemplo docente de impresión 3D: insertar y consultar solicitudes en **PostgreSQL** una vez configurado Supabase.
 - ✅ Formulario de registro e ingreso de usuarios por correo/contraseña; la confirmación de correo depende de configuración de Supabase.
 - ✅ Políticas RLS que aíslan los registros de cada cuenta.
-- ⏳ Los 8 módulos tienen **plantillas de trabajo**, no funcionalidades finales ni tablas propias todavía.
-- ⏳ Integración multiusuario por equipos, permisos de personal LABFIS y despliegue: no incluidos.
+- ✅ El módulo de Reservas está implementado y conectado con PostgreSQL mediante Supabase. Permite consultar disponibilidad, crear, modificar y cancelar reservas, además de consultar el historial.
+- ✅ El módulo cuenta con autenticación, autorización de usuarios, gestión de roles y administración de productos y equipos. El despliegue público está pendiente.
 
 ## Ruta rápida A: StackBlitz (sin instalaciones)
 
